@@ -1,11 +1,9 @@
 package com.themec.curriculo.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "curriculos")
 public class Curriculo {
 
     @Id

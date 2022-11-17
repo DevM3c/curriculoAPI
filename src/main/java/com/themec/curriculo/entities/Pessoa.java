@@ -4,6 +4,7 @@ package com.themec.curriculo.entities;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "pessoas")
 public class Pessoa {
 
     @Id
